@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8d5b29</color>
+    <color name="colorPrimaryDark">#4a492f</color>
+    <color name="colorAccent">#6b451f</color>
+    <color name="colorWhite">#e0d1b9</color>
+    <color name="white">#ffffff</color>
+    <color name="navColor">#493214</color>
+    <color name="checked">#301f0e</color>
+    <color name="notchecked">#462d14</color>
+</resources>

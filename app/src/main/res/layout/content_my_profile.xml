@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_my_profile"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mahmoud_ashraf.turismoapp.activities.MyProfileActivity"
+    tools:showIn="@layout/activity_my_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <LinearLayout
+        android:background="@drawable/profile_bak"
+        android:layout_width="match_parent"
+        android:paddingBottom="25dp"
+        android:layout_height="200dp"
+        android:layout_gravity="top"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:id="@+id/imageView"
+        android:layout_gravity="bottom"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/p"
+            app:civ_border_width="0dp"
+        app:civ_border_color="#fff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:id="@+id/name_txtv"
+                  android:textColor="#fff"
+android:paddingBottom="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:singleLine="true"
+            android:gravity="left"
+            android:text=" . . . "
+            android:textSize="22sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="50dp"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="HIRED FROM VISTOR"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="2"
+            android:paddingLeft="15dp"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/mail_txtv"
+           android:textColor="@android:color/black"
+           android:paddingLeft="15dp"
+           android:paddingTop="5dp"
+           android:paddingBottom="5dp"
+           android:singleLine="true"
+           android:textSize="18sp"
+           android:text="E-MAIL: "
+           />
+
+        <TextView
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:id="@+id/country"
+            android:paddingBottom="5dp"
+            android:textSize="18sp"
+            android:text="FROM: Egypt"
+            />
+
+        <TextView
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:id="@+id/age"
+            android:textSize="18sp"
+            android:text="AGE: 20 YEARS OLD"
+            />
+
+        <TextView
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:textSize="18sp"
+            android:text="PHONE: 0100101010100"
+            />
+
+        <TextView
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:textSize="18sp"
+            android:text="INTEREST: LOVE DESIGNING, GRAPHICS "
+            />
+
+        <TextView
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="25dp"
+            android:textSize="18sp"
+            android:text="MEMBER SINCE "
+            />
+        <TextView
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="18sp"
+            android:text="JULY 08,2015"
+
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
+    </ScrollView>
+<View
+android:layout_width="match_parent"
+android:layout_height="30dp"
+android:layout_gravity="bottom"
+android:background="@color/colorPrimary"/>
+
+    </FrameLayout>
+
